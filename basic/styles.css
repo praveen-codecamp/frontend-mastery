@@ -1,0 +1,7 @@
+.container{
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #333;
+}
