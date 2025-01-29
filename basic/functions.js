@@ -1,9 +1,25 @@
-let firstName = "Dayakar";
-let lastName = "Reddy";
+const selection = (xyz) => {
+  console.log("hello ", xyz);
+};
 
-firstName = "praveen";
-lastName = "chary";
+selection("raju");
+selection("ramu");
 
-let author = "raju";
+let count = 0;
 
-console.log(author, "last", lastName);
+const increment = (value) => {
+  count = value + 2;
+  console.log(count);
+};
+const decrement = (value) => {
+  count = value - 1;
+  console.log(count);
+};
+increment(count);
+increment(count);
+decrement(count);
+increment(count);
+
+decrement(count);
+decrement(count);
+decrement(count);
